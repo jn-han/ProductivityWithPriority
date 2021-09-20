@@ -1,0 +1,53 @@
+html {
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #8FDDE7;
+}
+
+label {
+    display: block;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+p, li {
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+body {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #B6E5D8;
+    padding: 0px 20px 20px 20px;
+}
+.button:hover{
+    background-color: #4CAF50;
+    color: white;
+    
+}
+.button {
+    transition-duration: 0.4s;
+    color: black;
+    border: 2px solid #4CAF50;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+
+}
+
+
+input[type=text] {
+    border: 1px solid black;
+    background-color: white;
+
+}
+
+#tableTarget:first-child{
+    font-family: 'Roboto', 'Sans-serif';
+}
+

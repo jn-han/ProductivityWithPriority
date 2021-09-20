@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <link href="style.css" rel = "stylesheet">
+        <title>Productivity with Priority</title>
+        <script src="webpage.js" defer></script>
+    </head>
+    <body>
+        <div>
+            <h1>
+                <em>Productivity with Priority</em>
+            </h1>
+            <p>Welcome to <em>Productivity with Priority</em> , a service that helps you plan your workload. It can: </p>
+            <ul>
+                <li>Organize your projects in one place</li>
+                <li>Help you develop a schedule to finish everything on time</li>
+                <li>Keep you focused on your work and prevent distractions</li>
+                <li>and more!</li>
+            </ul>
+        </div>
+        
+        <form id="input_form">  
+            <input type="text" id="taskName" placeholder="Enter task here" autofocus>
+            <label><textarea rows="5" cols="50" placeholder="Short description of task / To dos" id="eventDes"></textarea></label> 
+            <label><input type="date" id="taskDate"></label>
+            <label><input type="time" id="taskTime"></label>
+            <label><input type="button" class="button" id="createTaskBtn" value="Create Task"></input></label>
+        </form>
+
+
+        <table id="eventsTable">
+            <tbody id="tableTarget">
+            <tr>
+                <th>Reminder Name</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Short description</th>
+            </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
